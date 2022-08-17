@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.photosnap.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/reverseImageResultFragment"
+        android:name="com.photosnap.reverseimageresult.ReverseImageResultFragment"
+        android:label="PhotoSnap Result"
+        tools:layout="@layout/fragment_reverse_image_result" />
+    <fragment
+        android:id="@+id/allResultsFragment"
+        android:name="com.photosnap.savedresults.SavedResultsFragment"
+        android:label="Saved Results"
+        tools:layout="@layout/fragment_saved_results" />
+</navigation>

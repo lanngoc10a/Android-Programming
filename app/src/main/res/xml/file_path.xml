@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <external-path
+        name='photosnap_images'
+        path='Android/data/com.photosnap/files/MyPhotoSnapImages'
+        ></external-path>
+
+</Paths>
